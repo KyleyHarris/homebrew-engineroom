@@ -4,6 +4,7 @@
 lets you work on them from any other.
 
 ```sh
+brew trust kyleyharris/engineroom                       # once per Mac: Homebrew loads no untrusted tap
 brew install --cask kyleyharris/engineroom/engineroom   # the menu bar app, the program and Zellij
 brew install kyleyharris/engineroom/engineroom          # the program and Zellij only
 ```
