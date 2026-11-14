@@ -2,9 +2,9 @@
 class Engineroom < Formula
   desc "Run Claude Code sessions on one Mac and work on them from any other"
   homepage "https://github.com/KyleyHarris/engineroom"
-  url "https://github.com/KyleyHarris/engineroom/releases/download/v0.2.0/engineroom-0.2.0-macos.tar.gz"
-  version "0.2.0"
-  sha256 "50c1f2fc3dff8ddad3833e4808d8ede935ade8fd48ab2584dff7fb3d7a2163b8"
+  url "https://github.com/KyleyHarris/engineroom/releases/download/v0.2.1/engineroom-0.2.1-macos.tar.gz"
+  version "0.2.1"
+  sha256 "01dc97ce1c4028f1309197a4fe893b89b0d81786c79949d0452f35c2484ac5a5"
   license "MIT"
 
   depends_on arch: :arm64
@@ -16,6 +16,6 @@ class Engineroom < Formula
   end
 
   test do
-    assert_match "engineroom v0.2.0", shell_output("#{bin}/engineroom version")
+    assert_match "engineroom v0.2.1", shell_output("#{bin}/engineroom version")
   end
 end

@@ -1,7 +1,7 @@
 # Written by engineroom's release (scripts/release-tap.sh); edit that, not this file.
 cask "engineroom" do
-  version "0.2.0"
-  sha256 "dbfa02ad1f8507dcd61c210ef9831b8cdf84364f4d45131eb0b73a110a24a3dd"
+  version "0.2.1"
+  sha256 "2768055459ca02291ebfdc6d2c2fb72ab0cf0d443f24fde16f6941bec6e2be8e"
 
   url "https://github.com/KyleyHarris/engineroom/releases/download/v#{version}/engineroom-app-#{version}.zip"
   name "engineroom"
